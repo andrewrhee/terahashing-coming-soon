@@ -57,6 +57,8 @@ export default function Home() {
               priority
             />
           </div>
+        <div className="flex-1">
+          <Image src={headline} alt="Headline" with={1025} height={28} />
         </div>
 
         <div className={styles.grid}>
