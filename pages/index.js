@@ -7,7 +7,7 @@ import mining from '../assets/mining.png';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-t from-gray-800 bg-repeat via-[#737BF1] to-gray-900 bg-center subpixel-antialiased">
+    <div className="min-h-screen bg-gradient-to-r from-[#5C95E5] bg-repeat to-[#7D6FF6] bg-center subpixel-antialiased">
       <Head>
         <title>Terahashing | Coming Soon</title>
         <link rel="icon" href="/favicon.ico" />
