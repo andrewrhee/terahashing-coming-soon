@@ -3,7 +3,7 @@ import Image from 'next/image';
 import logo from '../assets/logo.png';
 import headline from '../assets/headline.png';
 import comingsoon from '../assets/coming-soon.png';
-import mining from '../assets/mining.png';
+import mining from '../assets/mining.gif';
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full">
-        <div className="mt-10">
+        <div className="mt-[100px]">
           <Image src={logo} alt="Terahashing Logo" width={589} height={85} />
         </div>
         <div className="mt-4">
