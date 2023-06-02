@@ -3,7 +3,7 @@ import Image from 'next/image';
 import logo from '../assets/logo.png';
 import headline from '../assets/headline.png';
 import comingsoon from '../assets/coming-soon.png';
-import mining from '../assets/mining.gif';
+import mining from '../assets/mining_1.gif';
 
 export default function Home() {
   return (
